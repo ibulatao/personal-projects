@@ -6,3 +6,6 @@ Day 1:
 - Completed learnpython.org 2nd exercise -> Variables and types. Added to Day 0 - 30 branch.
 - Completed learnpython.org 3nd exercise -> Lists. Added to Day 0 - 30 branch.
 - Completed LeetCode Problem Set 1. TwoSum -> 1 TwoSum Solution. Added to Day 0 - 30 branch.
+
+Day 2:
+- Completed Problem Set 8 - Trivia (Harvard CS50) -> Trivia. Added to Day 0 - 30 branch.

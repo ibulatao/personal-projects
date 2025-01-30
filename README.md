@@ -9,3 +9,6 @@ Day 1:
 
 Day 2:
 - Completed Problem Set 8 - Trivia (Harvard CS50) -> Trivia. Added to Day 0 - 30 branch.
+
+Day 3:
+- Currently building on a homepage for Problem Set 8 - Homepage.

@@ -12,3 +12,6 @@ Day 2:
 
 Day 3:
 - Currently building on a homepage for Problem Set 8 - Homepage.
+
+Day 4-5
+- Completed Problem Set 8 - Homepage.

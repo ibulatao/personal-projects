@@ -1,0 +1,22 @@
+10 HTML Tags Used:
+1. <nav> - The Bootstrap navbar for navigating across all pages.
+2. <button> - Interactive element that acts as the button to complete an action.
+3. <script> - Embedded JavaScript for audio interactivity.
+4. <img> - Used to display images.
+5. <div> - Used to create a navbar structure.
+6. <h> - Used to create headings for certain section titles and summaries.
+7. <link> - Used to provide navigation links and external resources.
+8. <hr> - Used as a rule to properly separate my points.
+9. <p> - Used for formatting my descriptions.
+10. <a> - Used as the anchor tag for creating links.
+
+5 CSS properties used:
+1. margin - This was used for spacing and formatting adjustments.
+2. navbar-dark / bg-dark / btn-outline-info / indent - Similar to margin, it's for styling.
+3. text-align - Used for formatting and alignment.
+4. display - Used for providing a clean layout.
+5. color - Used for styling the navbar and the buttons.
+
+The usage of Java/Bootstrap is to create an interaction and keep the user engaged in the website with small interactive buttons and sound effects.
+
+The homepage acts as an ELI5 - which is to provide a quick summary like explaining to a 5 year old and keep things simple. While these things are easy and quick, there should be a way to make things entertaining which is the purpose of the Bruh sound effect.

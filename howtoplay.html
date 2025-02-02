@@ -1,0 +1,61 @@
+<!-- How To Play section: The section of the homepage that talks about the mechanics of Liar's Bar. -->
+<!DOCTYPE html>
+
+<html lang="en">
+   <head>
+       <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+       <link href="styles.css" rel="stylesheet">
+       <title>How To Play</title>
+       <script>
+           // This is to play the sound effect from the game that says Liar when the game icon is clicked in the nav-bar.
+           function play_sound() {
+               new Audio(url).play();
+           }
+       </script>
+   </head>
+   <body>
+       <!--This serves as the navigation bar for the homepage.-->
+       <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+           <a class="navbar-brand" href="index.html"><b>ELI5 Liar's Bar</b></a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto">
+                   <li class="nav-item active">
+                       <a class="nav-link" href="index.html">Main</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="mechanics.html">Mechanics</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="howtoplay.html">How To Play<span class="sr-only">(current)</span></a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="resources.html">Resources</a>
+                   </li>
+               </ul>
+               <!--This serves as the button that plays the sound from the game that says Liar.-->
+               <button onclick="play_sound('sounds/bruh.wav')" type="button" class="btn btn-outline-info"><img src="images/image1.png" alt="Image of Liar's Bar icon" width="30"></button>
+           </div>
+       </nav>
+
+       <!--This section serves as the content of the How To Play page-->
+       <h1>How To Play</h1>
+       <h4>Here's a short and simple guide on how to play the game.</h4>
+       <hr class="solid">
+       <p>
+        Once we have all the requirements for this game, we can now proceed to play. Here's how to play
+       </p>
+       <ul class="indent">
+           <li>The deck will consist of 5 Kings, 5 Queens, 5 Aces, and 2 Jokers.</li>
+           <li>Before the deck is distributed - the table will be given the main card to discard. Sample: King's Table will require players to discard Kings if they have it.</li>
+           <li>Each player will be given 5 cards once the table is decided.</li>
+           <li>A player is eliminated in a Russian Roulette fashion where they will pick a paper / card and it will determine whether they are eliminated or not.</li>
+           <li>One out of 6 cards/papers will say Eliminated.</li>
+       </ul>
+       <p>
+           The goal of the game is to eliminate all other players by bluffing or calling out their lie. As there are a limited number of cards, you can predict your opponent's lie if you have the cards for the type of table.
+       </p>
+   </body>
+</html>

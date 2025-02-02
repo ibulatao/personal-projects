@@ -1,0 +1,60 @@
+<!-- Mechanics section: The section of the homepage that talks about the mechanics of Liar's Bar. -->
+<!DOCTYPE html>
+
+<html lang="en">
+   <head>
+       <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+       <link href="styles.css" rel="stylesheet">
+       <title>Mechanics</title>
+       <script>
+           // This is to play the sound effect from the game that says Liar when the game icon is clicked in the nav-bar.
+           function play_sound() {
+               new Audio(url).play();
+           }
+       </script>
+   </head>
+   <body>
+       <!--This serves as the navigation bar for the homepage.-->
+       <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+           <a class="navbar-brand" href="index.html"><b>ELI5 Liar's Bar</b></a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto">
+                   <li class="nav-item active">
+                       <a class="nav-link" href="index.html">Main</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="mechanics.html">Mechanics<span class="sr-only">(current)</span></a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="howtoplay.html">How To Play</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="resources.html">Resources</a>
+                   </li>
+               </ul>
+               <!--This serves as the button that plays the sound from the game that says Liar.-->
+               <button onclick="play_sound('sounds/bruh.wav')" type="button" class="btn btn-outline-info"><img src="images/image1.png" alt="Image of Liar's Bar icon" width="30"></button>
+           </div>
+       </nav>
+
+       <!--This section serves as the content of the Mechanics page-->
+       <h1>The Mechanics</h1>
+       <h4>Here are the mechanics of the game</h4>
+       <hr class="solid">
+       <p>
+           The mechanics of the game is simple. It's a game that uses wits, bluffs and deception.
+           Here are the things needed for us to play the game:
+       </p>
+       <ul class="indent">
+           <li>2-4 people</li>
+           <li>Two decks of playing cards or a virtual machine that has the game</li>
+           <li>Stakes that are decided by the players or the standard one in the game</li>
+       </ul>
+       <p>
+           As soon as you have all of these things readily available, you can now get started with setting up the game.
+       </p>
+   </body>
+</html>

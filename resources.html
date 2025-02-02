@@ -1,0 +1,53 @@
+<!-- Resources section: The section of the homepage that talks about the mechanics of Liar's Bar. -->
+<!DOCTYPE html>
+
+<html lang="en">
+   <head>
+       <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+       <link href="styles.css" rel="stylesheet">
+       <title>Resources</title>
+       <script>
+           // This is to play the sound effect from the game that says Liar when the game icon is clicked in the nav-bar.
+           function play_sound() {
+               new Audio(url).play();
+           }
+       </script>
+   </head>
+   <body>
+       <!--This serves as the navigation bar for the homepage.-->
+       <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+           <a class="navbar-brand" href="index.html"><b>ELI5 Liar's Bar</b></a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto">
+                   <li class="nav-item active">
+                       <a class="nav-link" href="index.html">Main</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="mechanics.html">Mechanics</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="howtoplay.html">How To Play</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="resources.html">Resources<span class="sr-only">(current)</span></a>
+                   </li>
+               </ul>
+               <!--This serves as the button that plays the sound from the game that says Liar.-->
+               <button onclick="play_sound('sounds/bruh.wav')" type="button" class="btn btn-outline-info"><img src="images/image1.png" alt="Image of Liar's Bar icon" width="30"></button>
+           </div>
+       </nav>
+
+       <!--This section serves as the content of the Resources page-->
+       <h1>Resources</h1>
+       <h4>Below are a list of resources you can refer to regarding the game Liar's Bar.</h4>
+       <hr class="solid">
+       <ul class="indent" style="padding-bottom: 30px">
+        <li><a target="_blank" href="https://store.steampowered.com/app/3097560/Liars_Bar/">Liar's Bar on Steam</a></li>
+        <li><a target="_blank" href="https://www.thegamer.com/liars-bar-how-to-play-liars-deck/">Liar's Deck</a></li>
+        <li><a target="_blank" href="https://www.youtube.com/watch?v=kJzFh1JMHXE&pp=ygURbGlhcidzIGJhciBjYXNlb2g%3D">A Game of Liar's Bar</a></li>
+       </ul>
+   </body>
+</html>

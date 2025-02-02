@@ -1,0 +1,62 @@
+<!--The homepage: This page serves as the main page that contains a brief summary of what the website is about. -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>ELI5 Liar's Bar | Homepage </title>
+        <script>
+            // This function plays a sound effect when the user clicks the liar button in the nav bar.
+            // I followed and customized what I learned here: https://stackoverflow.com/questions/18826147/javascript-audio-play-on-click
+            function play_sound(url) {
+                new Audio(url).play();
+            }
+        </script>
+    </head>
+
+    <body>
+        <!--This serves as the navigation bar for the homepage-->
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html"><b>ELI5 Liar's Bar</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Main<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mechanics.html">Mechanics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="howtoplay.html">How To Play</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resources.html">Resources</a>
+                    </li>
+                </ul>
+                <!--This serves as the button that plays the sound from the game that says Liar-->
+                <button onclick="play_sound('sounds/bruh.wav')" type="button" class="btn btn-outline-info"><img src="images/image1.png" alt="Image of Liar's Bar icon" width="30"></button>
+            </div>
+        </nav>
+
+        <!-- This section serves as the main content of the homepage -->
+        <h1 style="margin-left: 200pt;">Welcome to ELI5 Liar's Bar!</h1>
+        <h4 style="margin-left: 200pt;">This is a quick summary explaining the new hit game called Liar's Bar</h4>
+        <img class="indent_img" src="images/image2.gif" alt="An image showing the gameplay of Liar's Bar" width="615">
+        <h6 style="margin-left: 200pt; margin-top: 15px"><em>A game where everyone lies.</em></h6>
+        <h4 class="indent" style="margin-top: 25px; margin-bottom: 20px;">About Liar's Bar</h4>
+        <hr class="solid">
+        <p class="indent" style="padding-bottom: 30px">
+            Liar's Bar is a game about deception and outsmarting your opponents, this will be a short and quick summary of the game's mechanics and strategies.<br><br>
+
+            The game can be played between 2-4 players and only requires 20 cards, which we will go through in the <em>Mechanics</em> section. <br> <br>
+
+            Now let's get started and call liars out!
+        </p>
+    </body>
+
+</html>
